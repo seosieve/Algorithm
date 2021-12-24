@@ -20,7 +20,7 @@ while min <= max {
     }
     if count < KN[1] {
         max = mid-1
-    } else if count >= KN[1] {
+    } else {
         min = mid+1
         output = mid
     }

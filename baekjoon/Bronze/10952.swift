@@ -1,4 +1,8 @@
-// 10998 AxB
+// 10952 A+B - 5
 import Foundation
 
-print(readLine()!.split(separator: " ").map{Int(String($0))!}.reduce(1){$0*$1})
+while true {
+    let input = readLine()!
+    if input = "0 0" { break }
+    print(input.split(separator: " ").map{Int(String($0))!}.reduce(0){$0 + $1})
+}

@@ -1,5 +1,4 @@
-// 11720 숫자의 합
+// 11654 아스키 코드
 import Foundation
 
-let _ = Int(readLine()!)!
-print(readLine()!.map{Int(String($0))!}.reduce(0,+))
+print(Character(readLine()!).asciiValue!)

@@ -1,4 +1,4 @@
-// 11654 아스키 코드
+// 10998 AxB
 import Foundation
 
-print(Character(readLine()!).asciiValue!)
+print(readLine()!.split(separator: " ").map{Int(String($0))!}.reduce(1){$0*$1})
