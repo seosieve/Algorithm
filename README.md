@@ -6,3 +6,5 @@ This repo is my storage. save algorithm concepts learned, problems to have solve
 baekjoon, programmers problem solving.<br>
 </br>
 <img src="http://mazandi.herokuapp.com/api?handle=royalcircle97&theme=dark"/>
+
+<a href="https://velog.io/@seosieve/About-ReadLine-in-Algorithm">ReadLine 함수 분석</a>
