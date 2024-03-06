@@ -21,7 +21,7 @@ for i in 0..<N {
     minHeight = min(minHeight ,map[i].min()!)
 }
 
-for i in minHeight..<maxHeight {
+for i in 1..<maxHeight {
     result = max(result ,safeArea(height: i))
 }
 print(result)
