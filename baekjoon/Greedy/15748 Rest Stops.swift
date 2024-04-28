@@ -7,7 +7,7 @@
 import Foundation
 
 //15748 Rest Stops
-final class FileIO {
+final class FileIO { 
     private let buffer:[UInt8]
     private var index: Int = 0
 
