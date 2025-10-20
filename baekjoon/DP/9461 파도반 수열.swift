@@ -1,8 +1,7 @@
 //
-//  main.swift
-//  SwiftAlgorithms
+//  Algorithms
 //
-//  Created by 서충원 on 12/17/24.
+//  Created by 서충원
 //
 
 import Foundation
@@ -23,5 +22,3 @@ for _ in 0..<T {
     let N = Int(readLine()!)!
     print(dp[N])
 }
-
-
