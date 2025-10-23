@@ -1,11 +1,10 @@
 //
-//  main.swift
-//  SwiftAlgorithms
+//  Algorithms
 //
-//  Created by 서충원 on 12/17/24.
+//  Created by 서충원
 //
 
-//import Foundation
+import Foundation
 
 let N = Int(readLine()!)!
 var map = [[Int]]()
@@ -33,9 +32,3 @@ func isAllSame(min: (x: Int, y: Int), max: (x: Int, y: Int)) -> Bool {
 divide(min: (0,0), max: (N, N), index: map[0][0])
 
 print(output.map{ String($0) }.joined(separator: "\n"))
-
-
-
-
-
-
