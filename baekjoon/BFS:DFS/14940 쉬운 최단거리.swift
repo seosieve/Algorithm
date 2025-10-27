@@ -1,5 +1,4 @@
 //
-//  11724 연결 요소의 개수.swift
 //  Algorithms
 //
 //  Created by 서충원 on 2/15/24.
